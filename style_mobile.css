@@ -1,0 +1,140 @@
+/* <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+<style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+</style> */
+
+:root {
+    --softblue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+    --verydarkbluemainBG: hsl(217, 54%, 11%);
+    --verydarkbluecardBG: hsl(216, 50%, 16%);
+    --verydarkblueline: hsl(215, 32%, 27%);
+    --white: hsl(0, 0%, 100%);
+    --text: #8bacd9;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: 'Outfit', sans-serif;
+    font-size: 62.5%;
+}
+
+main {
+    min-width: 375px;
+    max-width: 1440px;
+    width: 100%;
+    height: auto;
+    background-color: var(--verydarkbluemainBG);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0 0;
+}
+
+.contenedor {
+    width: 90%;
+    background-color: var(--verydarkbluecardBG);
+    border-radius: 15px;
+    padding: 20px 0 20px;
+}
+
+.main_div {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.main_div_img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.main_div_h1 {
+    padding-top: 20px;
+    color: var(--white);
+    font-weight: 600;
+}
+
+.main_div_p1 {
+    padding-top: 20px;
+    font-size: 1.6rem;
+    line-height: 25px;
+    font-weight: 300;
+    color: var(--text);
+
+}
+
+.update {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0 20px;
+    border-bottom: 1px solid var(--verydarkblueline);
+}
+
+.update_icon1 {
+    padding-right: 5px;
+}
+
+.update_h2 {
+    color: var(--cyan);
+    display: flex;
+    align-items: center;
+}   
+
+.update_icon2 {
+    padding-right: 5px;
+}
+
+.update_p {
+    color: var(--text);
+    font-size: 1.6rem;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+}
+
+.creation_div {
+    padding-top: 20px;
+    width: 90%;
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.creation_div_img {
+    height: 100%;
+    border-radius: 100%;
+    border: 1px solid var(--white);
+}
+
+.creation_div p {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.creation_div_p1 {
+    padding-left: 15px;
+    color: var(--text);
+}
+
+.creation_div_p2 {
+    padding-left: 5px;
+    color: var(--white);
+}
+
+.attribution { 
+    font-size: 1rem;
+    text-align: center;
+    padding: 11px 0;
+
+    color: var(--white);
+}
+.attribution a { color: hsl(228, 45%, 44%); }
