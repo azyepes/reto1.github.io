@@ -38,26 +38,64 @@ main {
 }
 
 .contenedor {
-    width: 90%;
+    width: 337.5px;
     background-color: var(--verydarkbluecardBG);
     border-radius: 15px;
     padding: 20px 0 20px;
 }
 
 .main_div {
-    width: 90%;
+    width: 303.75px;
     margin: 0 auto;
+}
+
+.main_div_img_a_div {
+    width: 303.75px;
+    height: 303.75px;
+    background-color: var(--cyan);
+    opacity: 0%;
+    position: absolute;
+    top: 70px;
+    border-radius: 8px;
+}
+
+.main_div_img_a_div:hover {
+    opacity: 50%;
+}
+
+.icon_view {
+    position: absolute;
+    top: 127.875px;
+    left: 127.875px;
+}
+
+/*.icon_view {
+    opacity: 0%;
+}*/
+
+.icon_view:hover {
+    opacity: 100%;
 }
 
 .main_div_img {
     width: 100%;
+    height: 100%;
     border-radius: 8px;
+    cursor: pointer;
 }
 
 .main_div_h1 {
     padding-top: 20px;
+}
+
+.main_div_h1 a {
     color: var(--white);
     font-weight: 600;
+    text-decoration: none;
+}
+
+.main_div_h1 a:hover {
+    color: var(--cyan);
 }
 
 .main_div_p1 {
@@ -70,7 +108,7 @@ main {
 }
 
 .update {
-    width: 90%;
+    width: 303.75px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -102,7 +140,7 @@ main {
 
 .creation_div {
     padding-top: 20px;
-    width: 90%;
+    width: 303.75px;
     height: 50px;
     margin: 0 auto;
     display: flex;
@@ -127,7 +165,15 @@ main {
 
 .creation_div_p2 {
     padding-left: 5px;
+}
+
+.creation_div_p2 a {
     color: var(--white);
+    text-decoration: none;
+}
+
+.creation_div_p2 a:hover {
+    color: var(--cyan);
 }
 
 .attribution { 
