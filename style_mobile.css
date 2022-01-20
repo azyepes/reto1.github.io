@@ -27,9 +27,8 @@ html {
 
 main {
     min-width: 375px;
-    max-width: 1440px;
     width: 100%;
-    height: auto;
+    height: 100vh;
     background-color: var(--verydarkbluemainBG);
     display: flex;
     flex-direction: column;
@@ -59,15 +58,22 @@ main {
     border-radius: 8px;
 }
 
-.main_div_img_a_div:hover {
-    opacity: 50%;
-}
-
-.icon_view {
+.main_div_img_a_div::after {
+    content: url("/images/icon-view.svg");
     position: absolute;
     top: 127.875px;
     left: 127.875px;
 }
+
+.main_div_img_a_div:hover {
+    opacity: 100%;
+}
+
+/* .icon_view {
+    position: absolute;
+    top: 127.875px;
+    left: 127.875px;
+} */
 
 /*.icon_view {
     opacity: 0%;
